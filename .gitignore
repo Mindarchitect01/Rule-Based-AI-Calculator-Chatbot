@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode settings
+.vscode/
+
+# Environment variables
+.env
+
+# MacOS
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Build files
+dist/
+build/
+
+# Flask session
+instance/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints/

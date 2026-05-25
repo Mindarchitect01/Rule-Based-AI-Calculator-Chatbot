@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+
+<body>
+    <div class="chat-container">
+        <div id="chat-box">
+
+        </div>
+        <div class="input-group">
+            <input type="text" id="user-input" placeholder="Ketik Pertanyaan..." autocomplete="off">
+            <button id="send-btn">Kirim</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+
+</html>
